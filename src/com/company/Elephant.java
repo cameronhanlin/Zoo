@@ -13,7 +13,7 @@ public class Elephant extends Animal {
 
     public void outputDetails(){
         super.outputDetails();
-        System.out.print(" and is an elephant, is "+color+" and ");
+        System.out.print(" and is an Elephant, is "+color+" and ");
         if(hasTusk)
             System.out.println("does have tusks");
         else

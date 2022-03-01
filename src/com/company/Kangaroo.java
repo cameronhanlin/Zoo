@@ -12,6 +12,7 @@ public class Kangaroo extends Animal{
     }
 
     public void outputDetails(){
+        System.out.println("");
         super.outputDetails();
         if(isMale)
             System.out.print(". He's ");
