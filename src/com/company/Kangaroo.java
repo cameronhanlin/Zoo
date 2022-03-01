@@ -19,7 +19,7 @@ public class Kangaroo extends Animal{
         else
             System.out.print(". She's ");
 
-        System.out.println("a Kangaroo, and is "+color+".");
+        System.out.println("a "+this.getClassName()+", and is "+color+".");
 
     }
 
